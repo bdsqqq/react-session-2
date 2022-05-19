@@ -1,5 +1,9 @@
 const Home: NextPage = () => {
-  return <div>Hej do</div>;
+  return (
+    <div>
+      Hej do <code>0</code>
+    </div>
+  );
 };
 
 export default Home;
