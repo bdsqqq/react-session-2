@@ -1,3 +1,3 @@
-export const Box = styled("div");
+import { default as Box } from "./Box";
 
-import { styled } from "stitches.config";
+export { Box };
