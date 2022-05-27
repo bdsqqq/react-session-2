@@ -20,6 +20,12 @@ const Home: NextPage = () => {
           }}
         >
           <SearchBar />
+          <Tag
+            label="Label"
+            onRemove={() => {
+              console.log("Remove");
+            }}
+          />
         </Box>
       </Box>
     </Box>
@@ -31,4 +37,5 @@ export default Home;
 import type { NextPage } from "next";
 
 import SearchBar from "@/components/ui/SearchBar";
+import Tag from "@/components/ui/Tag";
 import { Box } from "@/components/ui/primitives";
